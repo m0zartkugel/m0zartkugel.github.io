@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    background-image: linear-gradient(to right, #e22dc7, #4a00e0);
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -7,10 +7,10 @@ body {
 }
 
 header {
+    margin-top: 50px;
     height: 40px;
     display: flex;
     justify-content: space-around;
-    padding: 5%;
     align-items: center;
 }
 
@@ -20,6 +20,7 @@ header a {
 }
 
 .container {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
