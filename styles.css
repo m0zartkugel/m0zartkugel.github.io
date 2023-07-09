@@ -1,4 +1,7 @@
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(to right, #e22db2, #4a00e0);
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -7,6 +10,7 @@ body {
 }
 
 header {
+    font-size: 15px;
     height: 70px;
 }
 
@@ -21,7 +25,7 @@ nav {
 nav ul li {
     list-style: none;
     float: right;
-    margin: 10px 20px;
+    margin: 10px;
 }
 
 a {
@@ -38,22 +42,27 @@ h2 {
     font-size: 18px;
 }
 
-.logo {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+p a {
+    margin-right: 10px;
 }
 
 header a:hover {
-    color: black;
+    color: rgb(60, 60, 60);
     text-decoration: none;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: rgb(60, 60, 60);
+}
+
+.logo {
+    font-family: cursive;
 }
 
 .container {
     padding-left: 100px;
     display: flex;
     justify-content: left;
-}
-
-.center {
-    margin: auto;
-    width: 50%;
 }
