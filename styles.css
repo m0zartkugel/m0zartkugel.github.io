@@ -6,26 +6,21 @@ body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-
+    text-align: center;
 }
 
 header {
+    background-color: black;
     font-size: 2vw;
-    height: 70px;
 }
 
 nav {
+    background-color: black;
+    font-size: 2vw;
+    height: 70px;
     display: flex;
-    width: 85%;
-    margin: auto;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-}
-
-nav ul li {
-    list-style: none;
-    float: right;
-    margin: 10px;
 }
 
 a {
@@ -36,7 +31,7 @@ a {
 
 h1 {
     margin-top: 150px;
-    font-size: 8vw;
+    font-size: 7vw;
 }
 
 h2 {
@@ -48,13 +43,13 @@ p {
 }
 
 p a {
-    margin-right: 10px;
+    margin-right: 2vw;
 }
 
 footer {
     margin-top: auto;
     text-align: center;
-    background-color: rgb(60, 60, 60);
+    background-color: black;
 }
 
 header a:hover {
@@ -62,8 +57,6 @@ header a:hover {
     text-decoration: none;
 }
 
-.container {
-    padding-left: 100px;
-    display: flex;
-    justify-content: left;
+.inactive {
+    color: grey;
 }
