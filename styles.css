@@ -1,45 +1,111 @@
-body {
-    margin: 0;
-    background-image: linear-gradient(to right, #e22db2, #4a00e0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    min-height: 100vh;
+@media  (max-width: 800px) {
+    body {
+        margin: 0;
+        background-image: linear-gradient(to right, #e22db2, #4a00e0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-height: 100vh;
+    }
+    
+    nav {
+        background-color: black;
+        font-size: 1,5vw;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 2,5vw
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    h1 {
+        font-size: 5vw;
+    }
+    
+    h2 {
+        font-size: 2vw;
+    }
+    
+    p {
+        font-size: 1vw;
+    }
+    
+    p a {
+        padding: 1vh;
+    }
+    
+    footer {
+        background-color: black;
+        margin-top: auto;
+        font-size: 5vw;
+        height: 2,5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    a:hover {
+        color: rgb(60, 60, 60);
+    }
+    
+    .inactive {
+        color: grey;
+    }
+    
+    .main {
+        padding: 10vw;
+    }
 }
 
-nav {
-    background-color: black;
+@media  (min-width: 800px) {
+    body {
+        margin: 0;
+        background-image: linear-gradient(to right, #e22db2, #4a00e0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        min-height: 100vh;
+    }
+
+    nav {
+    background-color: greenyellow;
     font-size: 1,5vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 2,5vw
-}
+    }
 
-a {
+    a {
     color: white;
     text-decoration: none;
-}
+    }
 
-h1 {
+    h1 {
     font-size: 5vw;
-}
+    }
 
-h2 {
+    h2 {
     font-size: 2vw;
-}
+    }
 
-p {
+    p {
     font-size: 1vw;
-}
+    }
 
-p a {
+    p a {
     padding: 1vh;
-}
+    }
 
-footer {
+    footer {
     background-color: black;
     margin-top: auto;
     font-size: 5vw;
@@ -47,16 +113,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    }
 
-a:hover {
+    a:hover {
     color: rgb(60, 60, 60);
-}
+    }
 
-.inactive {
+    .inactive {
     color: grey;
-}
+    }
 
-.main {
+    .main {
     padding: 10vw;
+    }
 }
