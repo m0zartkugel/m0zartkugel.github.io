@@ -11,11 +11,11 @@ body {
 
 nav {
     background-color: black;
-    font-size: 2vw;
+    font-size: 1,5vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 5vw
+    height: 2,5vw
 }
 
 a {
@@ -24,7 +24,6 @@ a {
 }
 
 h1 {
-    margin-top: 10vw;
     font-size: 5vw;
 }
 
@@ -44,7 +43,7 @@ footer {
     background-color: black;
     margin-top: auto;
     font-size: 5vw;
-    height: 5vw;
+    height: 2,5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +55,8 @@ a:hover {
 
 .inactive {
     color: grey;
+}
+
+.main {
+    padding: 10vw;
 }
